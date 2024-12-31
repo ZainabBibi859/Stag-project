@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Hero Section</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+ 
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    
+     <!-- Required CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  
+   
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <!-- Header -->
+    
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <!-- Logo -->
+                <div class="col-lg-3">
+                    <div class="header__logo">
+                        <a href="#"><img src="img/logo.png" alt="Logo" height="50"></a>
+                    </div>
+                </div>
+    
+                <!-- Navbar -->
+                <div class="col-lg-6">
+                    <nav class="header__menu navbar navbar-expand-lg">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="project-details.html">Project Details</a></li>
+                                        <li><a class="dropdown-item" href="about.html">About</a></li>
+                                        <li><a class="dropdown-item" href="services.html">Services</a></li>
+                                        <li><a class="dropdown-item" href="blog-details.html">Blog Details</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+    
+                <!-- Header Widget -->
+                <div class="col-lg-3 text-end">
+                    <div class="header__widget">
+                        <span>Call us for any questions</span>
+                        <h4>+01 123 456 789</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- Hero Section -->
+   <!-- Hero Section Begin -->
+<section class="hero">
+    <div class="hero__slider owl-carousel">
+        <div class="hero__items set-bg" data-setbg="img/hero-1.jpg">
+            <div class="hero__text text-center">
+                <h2>Quality is not only our standard.</h2>
+                <a href="#" class="primary-btn normal-btn">See Project</a>
+                <a href="#" class="btn light more_btn">Discover more</a>
+                <div class="hero__social mt-3">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="hero__items set-bg" data-setbg="img/hero-1.jpg">
+            <div class="hero__text text-center">
+                <h2>Quality is not only our standard.</h2>
+                <a href="#" class="primary-btn normal-btn">see project</a>
+                <a href="#" class="btn  more_btn">Discover more</a>
+                <div class="hero__social mt-3">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide-num" id="snh-1"></div>
+    <div class="slider__progress"><span></span></div>
+</section>
+<!-- Hero Section End -->
+
+    <!-- About Section Begin -->
+    <section class="about spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about__text">
+                        <div class="section-title">
+                            <span>who are we</span>
+                            <h2>We propose and discuss design rules</h2>
+                        </div>
+                        <div class="about__para__text">
+                            <p>Metasurfaces are generally designed by placing scatterers in periodic or pseudo-periodic
+                                grids. We propose and discuss design rules for functional metasurfaces with randomly
+                            placed.</p>
+                            <p>Anisotropic elements that randomly sample. Quisque sit amet nisl ante. Fusce lacinia non
+                            tellus id gravida. Cras neque dolor, volutpat et hendrerit et.</p>
+                        </div>
+                        <a href="#" class="primary-btn normal-btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about__pic">
+                        <div class="about__pic__inner">
+                            <img src="img/about-pic.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Project Section Begin -->
+<section class="project">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="section-title">
+                    <span>Our works</span>
+                    <h2>Latest projects</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="project__slider owl-carousel">
+                <div class="project__slider__item set-bg" data-setbg="img/project-1.jpg">
+                    <div class="project__slider__item__hover">
+                        <span>Interiors</span>
+                        <h5>Lower River Street Astoria</h5>
+                    </div>
+                </div>
+                <div class="project__slider__item set-bg" data-setbg="img/project-2.jpg">
+                    <div class="project__slider__item__hover">
+                        <span>Interiors</span>
+                        <h5>Lower River Street Astoria</h5>
+                    </div>
+                </div>
+                <div class="project__slider__item set-bg" data-setbg="img/project-3.jpg">
+                    <div class="project__slider__item__hover">
+                        <span>Interiors</span>
+                        <h5>Lower River Street Astoria</h5>
+                    </div>
+                </div>
+                <div class="project__slider__item set-bg" data-setbg="img/project-4.jpg">
+                    <div class="project__slider__item__hover">
+                        <span>Interiors</span>
+                        <h5>Lower River Street Astoria</h5>
+                    </div>
+                </div>
+                <div class="project__slider__item set-bg" data-setbg="img/project-p5.jpg">
+                    <div class="project__slider__item__hover">
+                        <span>Interiors</span>
+                        <h5>Lower River Street Astoria</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Project Section End -->
+
+ <!-- Services Section Begin -->
+ <section class="services spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <span>Our specialization</span>
+                    <h2>What we do</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="services__item">
+                    <img src="img/services-1.png" alt="">
+                    <h4>Interior Design</h4>
+                    <p>As you might expect of a company that began as a high-end interiors contractor, we pay strict
+                    attention.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="services__item">
+                    <img src="img/services-2.png" alt="">
+                    <h4>Office Design</h4>
+                    <p>Our commitment to exceptional quality has never wavered. To day ranks as one of the most
+                    highly-regarded construction.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="services__item">
+                    <img src="img/services-3.png" alt="">
+                    <h4>Home Design</h4>
+                    <p>Interdisciplinary architectural studio with cultural, residential and commercial projects
+                    built worldwide.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="services__item">
+                    <img src="img/services-4.png" alt="">
+                    <h4>Design drawing</h4>
+                    <p>Creating architectural and creative solutions to help people realize their vision and make
+                    them a reality.</p>
+                </div>
+            </div>
+        </div>
+        <div class="counter__content">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="counter__item">
+                        <div class="counter__item__number">
+                            <h2 class="count">85</h2>
+                        </div>
+                        <div class="counter__item__text">
+                            <h5>Projects<br /> Completed</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="counter__item">
+                        <div class="counter__item__number">
+                            <h2 class="count">127</h2>
+                        </div>
+                        <div class="counter__item__text">
+                            <h5>Happy<br /> Clients</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="counter__item">
+                        <div class="counter__item__number">
+                            <h2 class="count">36</h2>
+                        </div>
+                        <div class="counter__item__text">
+                            <h5>Awards<br /> Received</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="counter__item">
+                        <div class="counter__item__number">
+                            <h2 class="count">74</h2>
+                        </div>
+                        <div class="counter__item__text">
+                            <h5>Cups Of<br /> Coffee</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Services Section End -->
+ <!-- Testimonial Section Begin -->
+   
+        <!-- Testimonial Section Begin -->
+<section class="testimonial spad set-bg" style="background-image: url('img/testimonial-bg.jpg');">
+    <div class="container">
+        <!-- Section Title -->
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="section-title">
+                    <span>Testimonials</span>
+                    <h2>What your clients say</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonials Carousel -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="testimonialCarousel" class="owl-carousel owl-theme">
+                    <div class="testimonial__item">
+                        <p>“1. Fast and accurate at solving mental math problems involving addition, subtraction, multiplication, division, and percentages without requiring high-level skills for complex calculations.”</p>
+                    </div>
+                    <div class="testimonial__item">
+                        <p>“2. Fast and accurate at solving mental math problems involving addition, subtraction, multiplication, division, and percentages without requiring high-level skills for complex calculations.”</p>
+                    </div>
+                    <div class="testimonial__item">
+                        <p>“3. Fast and accurate at solving mental math problems involving addition, subtraction, multiplication, division, and percentages without requiring high-level skills for complex calculations.”</p>
+                    </div>
+                    <div class="testimonial__item">
+                        <p>“4. Fast and accurate at solving mental math problems involving addition, subtraction, multiplication, division, and percentages without requiring high-level skills for complex calculations.”</p>
+                    </div>
+                    <div class="testimonial__item">
+                        <p>“5. Fast and accurate at solving mental math problems involving addition, subtraction, multiplication, division, and percentages without requiring high-level skills for complex calculations.”</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonial Clients -->
+        <div class="row justify-content-center mt-4">
+            <div class="col-xl-6 col-lg-8 col-md-7 col-sm-10">
+                <div id="clientCarousel" class="owl-carousel owl-theme">
+                    <div class="testimonial__client__item text-center">
+                        <img src="img/ta-1.png" alt="Client 1" class="rounded-circle mb-3">
+                        <h5>Renee Calhoun</h5>
+                        <span>CEO Woolley</span>
+                    </div>
+                    <div class="testimonial__client__item text-center">
+                        <img src="img/ta-2.png" alt="Client 2" class="rounded-circle mb-3">
+                        <h5>John Doe</h5>
+                        <span>Manager, TechHub</span>
+                    </div>
+                    <div class="testimonial__client__item text-center">
+                        <img src="img/ta-3.png" alt="Client 3" class="rounded-circle mb-3">
+                        <h5>Jane Smith</h5>
+                        <span>Founder, EcoWorld</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Logo Carousel -->
+        <div class="row mt-5">
+            <div class="col-lg-12">
+                <div id="logoCarousel" class="owl-carousel owl-theme">
+                    <div class="logo__carousel__item">
+                        <img src="img/logo-1.png" alt="Logo 1" class="mx-auto">
+                    </div>
+                    <div class="logo__carousel__item">
+                        <img src="img/logo-2.png" alt="Logo 2" class="mx-auto">
+                    </div>
+                    <div class="logo__carousel__item">
+                        <img src="img/logo-3.png" alt="Logo 3" class="mx-auto">
+                    </div>
+                    <div class="logo__carousel__item">
+                        <img src="img/logo-4.png" alt="Logo 4" class="mx-auto">
+                    </div>
+                    <div class="logo__carousel__item">
+                        <img src="img/logo-5.png" alt="Logo 5" class="mx-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Testimonial Section End -->
+
+
+    <!-- Team Section Begin -->
+    <section class="team spad">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-9">
+                    <div class="section-title">
+                        <span>Our Team</span>
+                        <h2>Meet our team</h2>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-end">
+                    <a href="#" class="primary-btn normal-btn">View All</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="team__item set-bg" data-setbg="img/team-1.jpg" onclick="toggleDetails(this)">
+                        <div class="team__text">
+                            <h5>Dolores Webster</h5>
+                            <span>CEO & Founder</span>
+                            <div class="team__details">
+                                <p>Vestibulum dapibus odio quam, sit amet hendrerit dui ultricies consectetur. Ut viverra
+                                    porta leo, non tincidunt mauris condimentum eget. Vivamus non turpis elit. Aenean
+                                ultricies nisl sit amet.</p>
+                                <div class="social-icons">
+                                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="team__item set-bg" data-setbg="img/team-2.jpg" onclick="toggleDetails(this)">
+                        <div class="team__text">
+                            <h5>Dana Vaughn</h5>
+                            <span>Architect</span>
+                            <div class="team__details">
+                                <p>Vestibulum dapibus odio quam, sit amet hendrerit dui ultricies consectetur. Ut viverra
+                                    porta leo, non tincidunt mauris condimentum eget. Vivamus non turpis elit. Aenean
+                                ultricies nisl sit amet.</p>
+                                <div class="social-icons">
+                                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="team__item set-bg" data-setbg="img/team-3.jpg" onclick="toggleDetails(this)">
+                        <div class="team__text">
+                            <h5>Jonathan Mcdaniel</h5>
+                            <span>Architect</span>
+                            <div class="team__details">
+                                <p>Vestibulum dapibus odio quam, sit amet hendrerit dui ultricies consectetur. Ut viverra
+                                    porta leo, non tincidunt mauris condimentum eget. Vivamus non turpis elit. Aenean
+                                ultricies nisl sit amet.</p>
+                                <div class="social-icons">
+                                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Team Section End -->
+
+    <!-- Call To Action Section Begin -->
+    <section class="callto spad set-bg" data-setbg="img/call-bg.jpg">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <div class="callto__text">
+                        <span>Why choose us?</span>
+                        <h2>Our Ability To Deliver Outstanding Results For Our Clients Starts With Our Team Of Smart.
+                        </h2>
+                        <a href="#" class="primary-btn">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call To Action Section End -->
+    
+    
+    <!-- Latest Section Begin -->
+    <section class="latest spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-8 col-sm-6">
+                    <div class="section-title">
+                        <span>Latest News</span>
+                        <h2>From our blog</h2>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="latest__btn">
+                        <a href="#" class="primary-btn normal-btn">View All</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="latest__item">
+                        <div class="latest__item__pic">
+                            <img src="img/latest-1.jpg" alt="">
+                        </div>
+                        <div class="latest__item__text">
+                            <span>Architecture</span>
+                            <h4>Target and Amazon Shopping List for Home Stagers</h4>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="latest__item">
+                        <div class="latest__item__pic">
+                            <img src="img/latest-2.jpg" alt="">
+                        </div>
+                        <div class="latest__item__text">
+                            <span>Interior</span>
+                            <h4>6 Ideas for Team Building and Employee Appreciation for Home Stagers</h4>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="latest__item">
+                        <div class="latest__item__pic">
+                            <img src="img/latest-3.jpg" alt="">
+                        </div>
+                        <div class="latest__item__text">
+                            <span>Planning</span>
+                            <h4>How to Find the Best Price Structure for Your Home Staging Services</h4>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Latest Section End -->
+
+    <!-- Footer Section Begin -->
+<footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
+    <div class="container">
+        <div class="footer__top">
+            <div class="row">
+                <div class="col-lg-8 col-md-6">
+                    <div class="footer__top__text">
+                        <h2>Ready To Work With Us?</h2>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer__top__newslatter">
+                        <form action="#">
+                            <input type="text" placeholder="Enter your email...">
+                            <button type="submit"><i class="fa fa-send"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer__about">
+                    <div class="footer__logo">
+                        <a href="#"><img src="img/logo.png" alt=""></a>
+                    </div>
+                    <p>7176 Blue Spring Lane <br />Santa Monica, CA 90403</p>
+                    <ul>
+                        <li>Info.colorlib@gmail.com</li>
+                        <li>+84 123 456 789</li>
+                    </ul>
+                    <div class="footer__social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                <div class="footer__widget">
+                    <h6>Company</h6>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Our Works</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6">
+                <div class="footer__widget">
+                    <h6>Services</h6>
+                    <ul>
+                        <li><a href="#">Architecture</a></li>
+                        <li><a href="#">Interior Design</a></li>
+                        <li><a href="#">Exterior Design</a></li>
+                        <li><a href="#">Planning</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="footer__address">
+                    <h6>Get In Touch</h6>
+                    <p>7176 Blue Spring Lane <br />Santa Monica, CA 90403</p>
+                    <ul>
+                        <li>Info.colorlib@gmail.com</li>
+                        <li>+84 123 456 789</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="row">
+                <div class="col-lg-8 col-md-7">
+                    <div class="copyright__text">
+                        <p>Copyright © <script>
+                            document.write(new Date().getFullYear());
+                        </script> All rights reserved | This template is made with <i class="fa fa-heart-o"
+                            aria-hidden="true"></i> by <a href="https://colorlib.com"
+                            target="_blank">Colorlib</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5">
+                    <div class="copyright__widget">
+                        <a href="#">Terms of use</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      
+
+
+<!-- Required Owl Carousel JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+      <script>
+        $(document).ready(function () {
+            // Counter animation
+            $('.count').each(function () {
+                $(this).prop('Counter', 0).animate(
+                    {
+                        Counter: $(this).text(),
+                    },
+                    {
+                        duration: 2000,
+                        easing: 'swing',
+                        step: function (now) {
+                            $(this).text(Math.ceil(now));
+                        },
+                    }
+                );
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            // Initialize Hero Slider
+$(".hero__slider").owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: false, // Disable autoplay
+    dots: true,
+    nav: true,
+    navText: [
+        '<i class="fa fa-chevron-left"></i>',
+        '<i class="fa fa-chevron-right"></i>'
+    ],
+    responsive: {
+        0: { nav: false },
+        768: { nav: true }
+    }
+});
+
+        
+            // Background Image Setter
+            $(".set-bg").each(function () {
+                var bg = $(this).data("setbg");
+                $(this).css("background-image", "url(" + bg + ")");
+            });
+        });
+        </script>
+        
+    <script>
+        $(document).ready(function () {
+ 
+
+
+
+    
+            // Initialize Project Slider
+            $(".project__slider").owlCarousel({
+                loop: true,
+                margin: 30,
+                nav: true,
+                dots: true,
+                autoplay: false,
+                autoplayTimeout: 3000,
+                responsive: {
+                    0: { items: 1 },
+                    576: { items: 2 },
+                    768: { items: 3 },
+                    1200: { items: 4 }
+                },
+                navText: [
+                    '<i class="fa fa-chevron-left"></i>',
+                    '<i class="fa fa-chevron-right"></i>'
+                ]
+            });
+    
+            // Background Image Setter
+            $(".set-bg").each(function () {
+                var bg = $(this).data("setbg");
+                $(this).css("background-image", "url(" + bg + ")");
+            });
+        });
+    </script>
+    
+    <script>
+        // Apply background images for elements with the `set-bg` class
+        document.querySelectorAll('.set-bg').forEach(item => {
+            const bg = item.getAttribute('data-setbg');
+            if (bg) {
+                item.style.backgroundImage = `url(${bg})`;
+            }
+        });
+    </script>
+    <script>
+        function toggleDetails(element) {
+            // Toggle the "clicked" class to show or hide the details
+            element.classList.toggle('clicked');
+        }
+    </script>
+    
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const bgElements = document.querySelectorAll('.set-bg');
+    bgElements.forEach((el) => {
+        const bg = el.getAttribute('data-setbg');
+        if (bg) {
+            el.style.backgroundImage = `url('${bg}')`;
+            el.style.backgroundSize = 'cover';
+            el.style.backgroundPosition = 'center';
+        }
+    });
+});
+
+</script>
+
+<script>
+    $(document).ready(function () {
+    // Initialize Testimonials Carousel
+    $("#testimonialCarousel").owlCarousel({
+        items: 1,
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: false,
+        
+    navText: [
+        '<i class="fa fa-chevron-left"></i>',
+        '<i class="fa fa-chevron-right"></i>'
+    ],
+    
+        autoplay: true,
+        responsive: {
+            0: { items: 1 },
+            768: { items: 1 },
+        }
+    });
+
+    // Initialize Client Carousel
+    $("#clientCarousel").owlCarousel({
+        items: 3,
+        loop: true,
+        margin: 20,
+        nav: false,
+        dots: true,
+        responsive: {
+            0: { items: 1 },
+            768: { items: 2 },
+            992: { items: 3 }
+        }
+    });
+
+    // Initialize Logo Carousel
+    $("#logoCarousel").owlCarousel({
+        items: 5,
+        loop: true,
+        margin: 30,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        responsive: {
+            0: { items: 2 },
+            768: { items: 3 },
+            992: { items: 5 }
+        }
+    });
+});
+
+</script>
+
+
+</body>
+
+</html>
